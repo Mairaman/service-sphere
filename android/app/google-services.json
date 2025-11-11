@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325813644595",
+    "project_id": "service-sphere-2025",
+    "storage_bucket": "service-sphere-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325813644595:android:a77dc40440e50cf720e246",
+        "android_client_info": {
+          "package_name": "com.example.service_sphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLaw4oM6L1mVoXzywog6OrDnsuc69wBeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

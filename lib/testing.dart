@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:service_sphere/screens/provider/earnings_screen.dart';
 import 'package:service_sphere/screens/provider/job_management_screen.dart';
-import 'package:service_sphere/screens/provider/provider_dashboard.dart';
 import 'package:service_sphere/screens/provider/provider_profile_screen.dart';
 import 'package:service_sphere/screens/seeker/chats_screen.dart';
 import 'package:service_sphere/screens/seeker/profile_screen.dart';
@@ -30,7 +29,7 @@ class ServiceSphere extends StatelessWidget {
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ProviderDashboard(),
+      home: ServiceSeekerHome(),
       routes: {
         '/welcome': (context) => WelcomeScreen(),
         '/home': (context) => ServiceSeekerHome(),
